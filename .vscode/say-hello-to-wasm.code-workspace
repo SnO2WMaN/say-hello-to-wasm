@@ -1,0 +1,50 @@
+{
+  "folders": [
+    {
+      "path": ".."
+    },
+    {
+      "path": "../hello-wasm"
+    }
+  ],
+  "settings": {
+    "nixEnvSelector.nixFile": "${workspaceRoot}/shell.nix",
+    "rust-analyzer.server.path": "rust-analyzer",
+    "customLocalFormatters.formatters": [
+      {
+        "command": "treefmt -q --stdin ${file}",
+        "languages": [
+          "json",
+          "jsonc",
+          "markdown",
+          "nix",
+          "toml",
+          "rust"
+        ]
+      }
+    ],
+    "[toml]": {
+      "editor.defaultFormatter": "jkillian.custom-local-formatters"
+    },
+    "[nix]": {
+      "editor.defaultFormatter": "jkillian.custom-local-formatters"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "jkillian.custom-local-formatters"
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "jkillian.custom-local-formatters"
+    },
+    "[markdown]": {
+      "editor.defaultFormatter": "jkillian.custom-local-formatters"
+    },
+    "[rust]": {
+      "editor.defaultFormatter": "jkillian.custom-local-formatters"
+    },
+    "yaml.schemas": {
+      "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/github-workflow.json": [
+        ".github/workflows/*.yml"
+      ]
+    }
+  }
+}
