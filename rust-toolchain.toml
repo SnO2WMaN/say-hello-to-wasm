@@ -1,0 +1,8 @@
+[toolchain]
+channel = "stable"
+components = [
+  "rustfmt",
+  "rust-src",
+  "rust-analysis",
+]
+targets = ["wasm32-unknown-unknown"]
