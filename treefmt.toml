@@ -5,4 +5,15 @@ includes = ["*.nix"]
 [formatter.dprint]
 command = "dprint"
 options = ["fmt"]
-includes = ["*.json", "*.toml", "*.md"]
+includes = [
+  "*.json",
+  "*.code-workspace",
+  "*.toml",
+  "*.md",
+]
+
+[formatter.rustfmt]
+command = "rustfmt"
+includes = [
+  "*.rs",
+]

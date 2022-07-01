@@ -2,6 +2,10 @@
 packages = [
   "alejandra",
   "dprint",
+  "rust-analyzer",
+  "cargo-watch",
+  "cargo-edit",
+  "wasm-pack",
 ]
 
 [[commands]]
