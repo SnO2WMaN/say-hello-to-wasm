@@ -1,0 +1,8 @@
+# dependency
+node_modules/
+
+# cache
+.eslintcache
+
+# log
+.pnpm-debug.log

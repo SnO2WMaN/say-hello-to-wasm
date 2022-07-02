@@ -4,6 +4,9 @@
       "path": ".."
     },
     {
+      "path": "../frontend"
+    },
+    {
       "path": "../hello-wasm"
     }
   ],
@@ -19,7 +22,11 @@
           "markdown",
           "nix",
           "toml",
-          "rust"
+          "rust",
+          "javascript",
+          "javascriptreact",
+          "typescript",
+          "typescriptreact"
         ]
       }
     ],
@@ -33,6 +40,18 @@
       "editor.defaultFormatter": "jkillian.custom-local-formatters"
     },
     "[jsonc]": {
+      "editor.defaultFormatter": "jkillian.custom-local-formatters"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "jkillian.custom-local-formatters"
+    },
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "jkillian.custom-local-formatters"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "jkillian.custom-local-formatters"
+    },
+    "[typescriptreact]": {
       "editor.defaultFormatter": "jkillian.custom-local-formatters"
     },
     "[markdown]": {

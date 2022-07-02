@@ -9,6 +9,8 @@ packages = [
   "pkgconfig",
   "rust-analyzer",
   "wasm-pack",
+  "nodejs-18_x",
+  "nodePackages.pnpm",
 ]
 
 [[commands]]

@@ -6,6 +6,10 @@ includes = ["*.nix"]
 command = "dprint"
 options = ["fmt"]
 includes = [
+  "*.js",
+  "*.jsx",
+  "*.ts",
+  "*.tsx",
   "*.json",
   "*.code-workspace",
   "*.toml",

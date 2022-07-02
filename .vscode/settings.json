@@ -1,6 +1,7 @@
 {
   "files.exclude": {
     "**/.direnv": true,
-    "hello-wasm": true
+    "hello-wasm": true,
+    "frontend": true
   }
 }
