@@ -1,0 +1,6 @@
+[tasks.hello-wasm]
+command = "makers"
+args = ["--cwd", "./hello-wasm", "build"]
+
+[tasks.wasm]
+dependencies = ["hello-wasm"]

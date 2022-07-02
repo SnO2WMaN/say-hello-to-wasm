@@ -2,6 +2,7 @@
 packages = [
   "alejandra",
   "cargo-edit",
+  "cargo-make",
   "cargo-watch",
   "dprint",
   "openssl",
